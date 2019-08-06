@@ -266,6 +266,25 @@
 						</div>
 					</div>
 				</div>
+				<div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/nemo.png" style = "width:500px;height:200px" alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">August 2,2019</span>
+							
+						</div>
+						<div class="entry-content">
+							<h5><strong><a href="page2.html#reflect5">Activity 5</a></strong></h5>
+							<p>
+								Initial Prototype - Registration and Login Forms
+							</p>
+							
+						</div>
+					</div>
+				</div>
 			</div>
 			
 	</section>

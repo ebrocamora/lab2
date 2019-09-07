@@ -301,7 +301,7 @@ h2.pagetitle {
 	outline: none;
 }
 .navbar-inner {
-	min-height: 4.75em;
+	min-height: 1em;
 }
 .navbar-inverse .navbar-inner {
 	background-repeat: repeat;
@@ -311,7 +311,7 @@ h2.pagetitle {
 	overflow:hidden;
 }
 #menu-main {
-	margin-top: 1.125em;
+	margin-top: 1em;
 }
 ul#menu-main > li > a {
 	font-weight: 600;
@@ -320,10 +320,10 @@ ul#menu-main > li > a {
 	text-transform:uppercase;
 }
 ul#menu-main > li > a:hover {
-	padding: 9px 15px;
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
+	padding: 5px 10px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
 }
 ul#menu-main > li > a:focus {
 	outline:0;
@@ -783,7 +783,7 @@ section#blog {
 
 
 .home-post .entry-content {
-	padding:20px;
+	padding:10px;
 }
 .home-post .entry-content h5 a {
 	font-size:22px;
@@ -796,13 +796,13 @@ section#blog {
 	font-size:13px;
 }
 .home-post .post-meta {
-	padding:20px;
+	padding:10px;
 	overflow:hidden;
 	color:#fcfcfc;
 }
 .home-post .post-meta i {
 	float:left;
-	margin-right:20px;
+	margin-right:10px;
 }
 .home-post .post-meta span {
 	margin-top:10px;
@@ -815,7 +815,7 @@ section#blog {
 .home-post .post-meta span.tags {
 	font-weight:700;
 	font-size:13px;
-	float:right;
+	float:left;
 	color:#ddd;
 }
 .home-post .post-meta span.tags a {
@@ -1705,4 +1705,238 @@ i.icon-white {
 	#contact-form input[type=submit] {
 		width: 100%;
 	}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: orange;
+  font-weight: bold;
+  font-size: 50px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 10%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/*reflections */
+body {
+  font-family: Arial;
+  padding: 30px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: #ff9478;
+}
+.header2 {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: #86e2d5;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn { 
+  float: left;
+  width: 100%;
+}
+
+
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
+
+p.blogger {
+    font-size: 1em;
+    background-color: #ecf0f1;
+    margin: 20px;
+    padding: 40px;
+}
+
+/* new activities */
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+img {
+  width: 100%;
+  height: auto;
+	padding: 5px;
+}
+
+h2 {
+  text-align:center;
+	padding-bottom: 1em;
+}
+
+.slick-dots {
+	text-align: center;
+  margin: 0 0 10px 0;
+  padding: 0;
+  li {
+    display:inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+    &.slick-active {
+      button {
+        background-color:black;
+      }
+    }
+    button {
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent;
+      background-color:#999;
+      border:none;
+      width: 15px;
+      height: 15px;
+      border-radius:50%;
+    }
+		:hover{
+			background-color: black;
+		}
+  }
+}
+
+/* Custom Arrow */
+.prev{
+	color: #999;
+	position: absolute;
+	top: 38%;
+	left: -2em;
+	font-size: 1.5em;
+		:hover{
+			cursor: pointer;
+			color: black;
+		}
+}
+.next{
+	color: #999;
+	position: absolute;
+	top: 38%;
+	right: -2em;
+	font-size: 1.5em;
+	:hover{
+			cursor: pointer;
+			color: black;
+		}
+}
+
+@media screen and (max-width: 800px) {
+    .next {
+        display: none !important;
+    }
 }

@@ -32,6 +32,7 @@
 							<li><a title="section orange" href="#services">Reflections</a></li>
 							<li><a title="blog" href="#blog">Activities</a></li>
 							<li><a title="contact" href="#contact">Projects</a></li>
+							<li><a title="contact" href="https://www.linkedin.com/in/eunace-rocamora-43854a180/">Linkedin Profile</a></li>
 							
 						</ul>
 					</nav>
@@ -125,47 +126,73 @@
 	<section id="services" class="section orange">
 		<div class="container">
 			<h4>Reflections</h4>
-			<!-- Four columns -->
-			<div class="row">
-				<div class="span3 animated-fast flyIn">
-					<div class="service-box">
-						<a href = "page.html#reflect"><img src="img/school.png" style="width:150px;height:200px;"alt="" /></a>
-						<a href = "page.html#reflect"><h2>Reflection #1</h2></a>
-						<p>
-							First Week of USERDES Class
-						</p>
+							<!-- Container for the image gallery -->
+				<div class="container">
+
+				  <!-- Full-width images with number text -->
+				  <div class="mySlides">
+					<div class="numbertext">1 / 6</div>
+					 <a href = "r1.html"> <img src="img/r1.png" style="width:10000px;height:500px"></a>
+				  </div>
+
+				  <div class="mySlides">
+					<div class="numbertext">2 / 6</div>
+					 <a href = "r2.html"> <img src="img/r2.png" style="width:10000px;height:500px"></a>
+				  </div>
+
+				  <div class="mySlides">
+					<div class="numbertext">3 / 6</div>
+					 <a href = "r3.html"> <img src="img/r3.png" style="width:10000px;height:500px"></a>
+				  </div>
+
+				  <div class="mySlides">
+					<div class="numbertext">4 / 6</div>
+					<a href = "r4.html"> <img src="img/r4.png" style="width:10000px;height:500px"></a>
+				  </div>
+
+				  <div class="mySlides">
+					<div class="numbertext">5 / 6</div>
+					<a href = "r5.html"> <img src="img/r5.png" style="width:10000px;height:500px"></a>
+				  </div>
+
+				  <div class="mySlides">
+					<div class="numbertext">6 / 6</div>
+					<a href = "r6.html"> <img src="img/r6.png" style="width:10000px;height:500px"></a>
+				  </div>
+
+				  <!-- Next and previous buttons -->
+				  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				  <!-- Image text -->
+				  <div class="caption-container">
+					<p id="caption"></p>
+				  </div>
+
+				  <!-- Thumbnail images -->
+				  <div class="row">
+					<div class="column">
+					  <img class="demo cursor" src="img/r1.png" style="width:100px;height:100px" onclick="currentSlide(1)" alt="Reflection 1: First Week of USERDES Class" hspace = "30">
 					</div>
-				</div>
-				<div class="span3 animated-fast flyIn">
-					<div class="service-box">
-						<a href = "page.html#reflect2"><img src="img/prototype.png"style="width:150px;height:200px;" alt="" /></a>
-						<a href = "page.html#reflect2"> <h2>Reflection #2</h2></a>
-						<p>
-							Need Finding and Paper Prototyping
-						</p>
+					<div class="column"> 
+					  <img class="demo cursor" src="img/r2.png" style="width:250px;height:100px" onclick="currentSlide(2)" alt="Reflection 2: Need Finding and Paper Prototyping">
 					</div>
-				</div>
-				<div class="span3 animated-fast flyIn">
-					<div class="service-box">
-						<a href = "page.html#reflect3"><a href = "page.html#reflect3"><img src="img/web.png"style="width:150px;height:200px;" alt="" /></a>
-						<a href = "page.html#reflect3"><a href = "page.html#reflect2"><h2>Reflection #3</h2></a>
-						<p>
-							First Web Application using Github and Heroku
-						</p>
+					<div class="column">
+					  <img class="demo cursor" src="img/r3.png" style="width:250px;height:100px" onclick="currentSlide(3)" alt="Reflection 3: First Web Application using Github and Heroku">
 					</div>
-				</div>
-				<div class="span3 animated-fast flyIn">
-					<div class="service-box">
-						<a href = "page.html#reflect4"><img src="img/bad.png" style="width:150px;height:200px;" alt="" /></a>
-						<a href = "page.html#reflect4"><h2>Reflection #4</h2></a>
-						<p>
-							Userinyerface: Worst UI Practice
-						</p>
+					<div class="column">
+					  <img class="demo cursor" src="img/r4.png" style="width:250px;height:100px" onclick="currentSlide(4)" alt="Reflection 4: Userinyerface - Worst UI Practice">
 					</div>
+					<div class="column">
+					  <img class="demo cursor" src="img/r5.png" style="width:250px;height:100px" onclick="currentSlide(5)" alt="Reflection 5: SoCIT Fest">
+					</div> 
+					<div class="column">
+					  <img class="demo cursor" src="img/r6.png" style="width:250px;height:100px" onclick="currentSlide(6)" alt="Reflection 6: First Half of USERDES">
+					</div>
+				  </div>
 				</div>
-			</div>
-		</div>
-	</section>
+						</div>
+					</section>
 	<!-- end section: services -->
 	<!-- section: works -->
 	
@@ -194,14 +221,14 @@
 				<div class="span3">
 					<div class="home-post">
 						<div class="post-image">
-							<img class="max-img" src="img/act1.png" style = "width:500px;height:200px" alt="" />
+							<img class="max-img" src="img/home/1.gif" style = "width:500px;height:200px" alt="" />
 						</div>
 						<div class="post-meta">
 							<i class="icon-file icon-2x"></i>
 							<span class="date">June 25,2019</span>
 						</div>
 						<div class="entry-content">
-							<h5><strong><a href="page2.html#reflect">Activity 1</a></strong></h5>
+							<h5><strong><a href="a1.html">Activity 1</a></strong></h5>
 							<p>
 								Introduction & Accounts Creation 
 							</p>
@@ -212,7 +239,7 @@
 				<div class="span3">
 					<div class="home-post">
 						<div class="post-image">
-							<img class="max-img" src="img/light.png" style = "width:500px;height:200px"alt="" />
+							<img class="max-img" src="img/home/2.gif" style = "width:500px;height:200px"alt="" />
 						</div>
 						<div class="post-meta">
 							<i class="icon-file icon-2x"></i>
@@ -220,7 +247,7 @@
 							
 						</div>
 						<div class="entry-content">
-							<h5><strong><a href="page2.html#reflect2">Activity 2</a></strong></h5>
+							<h5><strong><a href="a2.html">Activity 2</a></strong></h5>
 							<p>
 								My Favorite Application
 							</p>
@@ -231,7 +258,7 @@
 				<div class="span3">
 					<div class="home-post">
 						<div class="post-image">
-							<img class="max-img" src="img/elev.jpg" style = "width:500px;height:200px" alt="" />
+							<img class="max-img" src="img/home/3.gif" style = "width:500px;height:200px"alt="" />
 						</div>
 						<div class="post-meta">
 							<i class="icon-file icon-2x"></i>
@@ -239,9 +266,85 @@
 							
 						</div>
 						<div class="entry-content">
-							<h5><strong><a href="page2.html#reflect3">Activity 3</a></strong></h5>
+							<h5><strong><a href="a3.html">Activity 3</a></strong></h5>
 							<p>
-								How would you design an interface for a 1000 floor elevator?
+								100 Floor Elevator.
+							</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/home/4.gif" style = "width:500px;height:200px"alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">July 21,2019</span>
+							
+						</div>
+						<div class="entry-content">
+							<h5><strong><a href="a4.html">Activity 4</a></strong></h5>
+							<p>
+								Need Finding Activity
+							</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/home/5.gif" style = "width:500px;height:200px"alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">August 2,2019</span>
+							
+						</div>
+						<div class="entry-content">
+							<h5><strong><a href="a5.gif">Activity 5</a></strong></h5>
+							<p>
+								Initial Prototype
+							</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/home/6.gif" style = "width:500px;height:200px"alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">August 3,2019</span>
+							
+						</div>
+						<div class="entry-content">
+							<h5><strong><a href="a6.html">Activity 6</a></strong></h5>
+							<p>
+								Persona
+							</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/home/7.gif" style = "width:500px;height:200px" alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">August 13,2019</span>
+							
+						</div>
+						<div class="entry-content">
+							<h5><strong><a href="a7.html">Activity 7</a></strong></h5>
+							<p>
+								Information Design
 							</p>
 		
 						</div>
@@ -250,17 +353,17 @@
 				<div class="span3">
 					<div class="home-post">
 						<div class="post-image">
-							<img class="max-img" src="img/nemo.png" style = "width:500px;height:200px" alt="" />
+							<img class="max-img" src="img/home/8.gif" style = "width:500px;height:200px" alt="" />
 						</div>
 						<div class="post-meta">
 							<i class="icon-file icon-2x"></i>
-							<span class="date">July 21,2019</span>
+							<span class="date">August 23,2019</span>
 							
 						</div>
 						<div class="entry-content">
-							<h5><strong><a href="page2.html#reflect4">Activity 4</a></strong></h5>
+							<h5><strong><a href="a8.html">Activity 8</a></strong></h5>
 							<p>
-								Need Finding
+								Grid Layout Design
 							</p>
 							
 						</div>
@@ -269,17 +372,17 @@
 				<div class="span3">
 					<div class="home-post">
 						<div class="post-image">
-							<img class="max-img" src="img/nemo.png" style = "width:500px;height:200px" alt="" />
+							<img class="max-img" src="img/home/9.gif" style = "width:500px;height:200px" alt="" />
 						</div>
 						<div class="post-meta">
 							<i class="icon-file icon-2x"></i>
-							<span class="date">August 2,2019</span>
+							<span class="date">August 27,2019</span>
 							
 						</div>
 						<div class="entry-content">
-							<h5><strong><a href="page2.html#reflect5">Activity 5</a></strong></h5>
+							<h5><strong><a href="a9.html">Activity 9</a></strong></h5>
 							<p>
-								Initial Prototype - Registration and Login Forms
+								12 - Column Grid Design
 							</p>
 							
 						</div>
@@ -296,7 +399,7 @@
 			<h1>Project</h1>
 			<p>
 				<strong>[Laboratory] L1 - Version Control and Basic HTML</strong>
-				Please Clik <a href = "lab1.html"><strong>Here</strong></a> to visit Lab 1 Project
+				Please Click <a href = "lab1.html"><strong>Here</strong></a> to visit <a href = "lab1.html">Lab 1 Project</a>
 				
 				
 
@@ -305,9 +408,9 @@
 			<p>
 				<strong>Userinyerface</strong>
 				First Try<br>
-				<img src = "1stquiz.png"style = "width:900px;height:500px"><br>
+				<img src = "img/1stquiz.png"style = "width:900px;height:500px"><br>
 				Second Try<br>
-				<img src = "2ndquiz.png" style = "width:900px;height:500px"><br>
+				<img src = "img/2ndquiz.png" style = "width:900px;height:500px"><br>
 				
 				
 

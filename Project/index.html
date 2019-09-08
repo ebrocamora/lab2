@@ -84,7 +84,7 @@
 		/* Six columns side by side */
 		.column {
 		  float: left;
-		  width: 16.66%;
+		  width: 15%;
 		}
 
 		/* Add a transparency effect for thumnbail images */
@@ -235,7 +235,7 @@
 
 				  <div class="mySlides">
 					<div class="numbertext">2 / 6</div>
-					 <a href = "r2.html"> <img src="img/r2.png" style="width:10000px;height:500px"></a>
+					 <a href = "r2.html"> <img src="img/r2.png" style="width:10000px;height:500px" hspace = "5"></a>
 				  </div>
 
 				  <div class="mySlides">
@@ -273,19 +273,19 @@
 					  <img class="demo cursor" src="img/r1.png" style="width:100px;height:100px" onclick="currentSlide(1)" alt="Reflection 1: First Week of USERDES Class" hspace = "30">
 					</div>
 					<div class="column"> 
-					  <img class="demo cursor" src="img/r2.png" style="width:250px;height:100px" onclick="currentSlide(2)" alt="Reflection 2: Need Finding and Paper Prototyping">
+					  <img class="demo cursor" src="img/r2.png" style="width:250px;height:100px" onclick="currentSlide(2)" alt="Reflection 2: Need Finding and Paper Prototyping" hspace = "10">
 					</div>
 					<div class="column">
-					  <img class="demo cursor" src="img/r3.png" style="width:250px;height:100px" onclick="currentSlide(3)" alt="Reflection 3: First Web Application using Github and Heroku">
+					  <img class="demo cursor" src="img/r3.png" style="width:250px;height:100px" onclick="currentSlide(3)" alt="Reflection 3: First Web Application using Github and Heroku" hspace = "10">
 					</div>
 					<div class="column">
-					  <img class="demo cursor" src="img/r4.png" style="width:250px;height:100px" onclick="currentSlide(4)" alt="Reflection 4: Userinyerface - Worst UI Practice">
+					  <img class="demo cursor" src="img/r4.png" style="width:250px;height:100px" onclick="currentSlide(4)" alt="Reflection 4: Userinyerface - Worst UI Practice" hspace = "10">
 					</div>
 					<div class="column">
-					  <img class="demo cursor" src="img/r5.png" style="width:250px;height:100px" onclick="currentSlide(5)" alt="Reflection 5: SoCIT Fest">
+					  <img class="demo cursor" src="img/r5.png" style="width:250px;height:100px" onclick="currentSlide(5)" alt="Reflection 5: SoCIT Fest" hspace = "10">
 					</div> 
 					<div class="column">
-					  <img class="demo cursor" src="img/r6.png" style="width:250px;height:100px" onclick="currentSlide(6)" alt="Reflection 6: First Half of USERDES">
+					  <img class="demo cursor" src="img/r6.png" style="width:250px;height:100px" onclick="currentSlide(6)" alt="Reflection 6: First Half of USERDES" hspace = "10">
 					</div>
 				  </div>
 				</div>
@@ -516,7 +516,36 @@
 			
 		</div>
 	</section>
-	
+	<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
 	<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.scrollTo.js"></script>

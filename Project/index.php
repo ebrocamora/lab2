@@ -270,7 +270,7 @@
 				  <!-- Thumbnail images -->
 				  <div class="row">
 					<div class="column">
-					  <img class="demo cursor" src="img/r1.png" style="width:100px;height:100px" onclick="currentSlide(1)" alt="Reflection 1: First Week of USERDES Class" hspace = "30">
+					  <img class="demo cursor" src="img/r1.png" style="width:160px;height:100px" onclick="currentSlide(1)" alt="Reflection 1: First Week of USERDES Class" hspace = "30">
 					</div>
 					<div class="column"> 
 					  <img class="demo cursor" src="img/r2.png" style="width:250px;height:100px" onclick="currentSlide(2)" alt="Reflection 2: Need Finding and Paper Prototyping" hspace = "10">

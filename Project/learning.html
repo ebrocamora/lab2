@@ -11,19 +11,21 @@
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: #ff9478;
+  background: #22313f;
 }
 .header2 {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: #86e2d5;
+  background: #22313f;
 }
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn { 
-  float: left;
-  width: 100%;
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  
 }
 
 
@@ -70,7 +72,69 @@ p.blogger {
     background-color: #ecf0f1;
     margin: 20px;
     padding: 40px;
-}</style>
+}
+section#blog {
+	background: #e4f1fe;
+}
+
+.home-post {
+	background:#1f3a93;
+	
+}
+
+.home-post:hover {
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+
+.home-post .entry-content {
+	padding:10px;
+}
+.home-post .entry-content h5 a {
+	font-size:22px;
+}
+.home-post .entry-content h5 a:hover {
+	color:#312f2b;
+	text-decoration:none;
+}
+.home-post .entry-content a.more {
+	font-size:13px;
+}
+.home-post .post-meta {
+	padding:10px;
+	overflow:hidden;
+	color:#fcfcfc;
+}
+.home-post .post-meta i {
+	float:left;
+	margin-right:10px;
+}
+.home-post .post-meta span {
+	margin-top:10px;
+}
+.home-post .post-meta span.date {
+	font-weight:700;
+	font-size:13px;
+	float:left;
+}
+.home-post .post-meta span.tags {
+	font-weight:700;
+	font-size:13px;
+	float:left;
+	color:#ddd;
+}
+.home-post .post-meta span.tags a {
+	color:#fcfcfc;
+}
+
+</style>
 <head>
 	<meta charset="utf-8">
 	<title>This is ME</title>
@@ -113,24 +177,145 @@ p.blogger {
 	
 					<div class="header2">
 					<br><br>
-				  <h2><strong>Activity 1 </strong></h2>
-				  <h2>Introduction & Accounts Creation</h2>
-					  <h5>June 25, 2019</h5>
+					<br><br> 
+				  <font size = "50px" background = "#22313f"> <strong>Learnings </strong></font>
+				  <br><br>
+					  
 				</div>
 
-				<div class="row">
-				  <div class="leftcolumn">
-					<div class="card">
-					  
+	<section id="blog" class="section">
+		<div class="container">
+		<h4><font size = "10px" color = "#1f3a93">Linkedin Learning Certificates</font></h4>
+			<!-- Three columns -->
+			<div class="row">
+				<div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/cert/1.png" style = "width:500px;height:200px" alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">Design Thinking: Prototyping</span>
+						</div>
+						<div class="entry-content">
+							<h5><font size = "5px"><strong>By: Randall Elliott</strong></font></h5>
+							<p>
+								Released on September 26, 2016 <br> Completed on September 8, 2019
+							</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/cert/2.png" style = "width:500px;height:200px"alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">UX Foundations: Style Guides..</span>
+							
+						</div>
+						<div class="entry-content">
+							<h5><strong>By: Chris Nodder</strong></h5>
+							<p>
+								Released on September 18, 2018<br>Completed on September 6,2019
+							</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/cert/3.png" style = "width:500px;height:200px"alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">UX Foundations: Multidevice...</span>
+							
+						</div>
+						<div class="entry-content">
+							<h5><strong>By: Diane Cronenwett</strong></h5>
+							<p>
+								Released on March 30, 2018 <br> Completed on September 8, 2019
+							</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/cert/4.png" style = "width:500px;height:200px"alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">Design the Web: HTML Back...</span>
+							
+						</div>
+						<div class="entry-content">
+							<h5><strong>By: Chris Converse</strong></h5>
+							<p>
+								Released on June 18, 2015 <br> Completed on September 9,201
+							</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/cert/5.png" style = "width:500px;height:200px"alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">Design the Web: Styling...</span>
+							
+						</div>
+						<div class="entry-content">
+							<h5><strong>By: Chris Converse</strong></h5>
+							<p>
+								Released on July 12, 2016 <br> Completed on September 9,2019
+							</p>
+							
+						</div>
+					</div>
+				</div></a>
+				<div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/cert/2.png" style = "width:500px;height:200px"alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">Body Language for Women</span>
+							
+						</div>
+						<div class="entry-content">
+							<h5><strong>By: Dorie Clark</strong></h5>
+							<p>
+							Released on April 19, 2018 <br> Completed on September 9,2019
+							</p>
+							
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+			
+	</section>
 					  
 					  <div class = "blogger">
 						  <p class = "blogger"> 
-						  <img src = "img/cert/1.png" style="width:600px;" hspace = "50">
-						  <img src = "img/cert/2.png" style="width:600px;">
-						  <img src = "img/cert/3.png" style="width:600px;"hspace = "50">
-						  <img src = "img/cert/4.png" style="width:600px;">
-						  <img src = "img/cert/5.png" style="width:600px;"hspace = "50">
-						  <img src = "img/cert/6.png" style="width:600px;"></p>
+						  
+						  <img src = "img/cert/1.png" style="width:400px;" hspace = "50">
+						  <img src = "img/cert/2.png" style="width:400px;">
+						  <img src = "img/cert/3.png" style="width:400px;"hspace = "50">
+						  <img src = "img/cert/4.png" style="width:400px;">
+						  <img src = "img/cert/5.png" style="width:400px;"hspace = "50">
+						  <img src = "img/cert/6.png" style="width:400px;"></p>
 						  
 					  </div>
 					</div>

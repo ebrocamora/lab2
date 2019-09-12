@@ -264,32 +264,32 @@
 				  <!-- Full-width images with number text -->
 				  <div class="mySlides">
 					<div class="numbertext">1 / 6</div>
-					 <a href = "r1.html"> <img src="img/r1.png" style="width:1000px;height:500px"hspace = "90"></a>
+					 <a href = "r1.html"> <img src="img/r1.png" style="width:100%; max-width:1000px;height:250px" hspace = "90"></a>
 				  </div>
 
 				  <div class="mySlides">
 					<div class="numbertext">2 / 6</div>
-					 <a href = "r2.html"> <img src="img/r2.png" style="width:1000px;height:500px" hspace = "90"></a>
+					 <a href = "r2.html"> <img src="img/r2.png" style="width:100%; max-width:1000px;height:250px" hspace = "90"></a>
 				  </div>
 
 				  <div class="mySlides">
 					<div class="numbertext">3 / 6</div>
-					 <a href = "r3.html"> <img src="img/r3.png" style="width:1000px;height:500px"hspace = "90"></a>
+					 <a href = "r3.html"> <img src="img/r3.png" style="width:100%; max-width:1000px;height:250px"hspace = "90"></a>
 				  </div>
 
 				  <div class="mySlides">
 					<div class="numbertext">4 / 6</div>
-					<a href = "r4.html"> <img src="img/r4.png" style="width:1000px;height:500px"hspace = "90"></a>
+					<a href = "r4.html"> <img src="img/r4.png" style="width:100%; max-width:1000px;height:250px"hspace = "90"></a>
 				  </div>
 
 				  <div class="mySlides">
 					<div class="numbertext">5 / 6</div>
-					<a href = "r5.html"> <img src="img/r5.png" style="width:1000px;height:500px"hspace = "90"></a>
+					<a href = "r5.html"> <img src="img/r5.png" style="width:100%; max-width:1000px;height:250px"hspace = "90"></a>
 				  </div>
 
 				  <div class="mySlides">
 					<div class="numbertext">6 / 6</div>
-					<a href = "r6.html"> <img src="img/r6.png" style="width:1000px;height:500px"hspace = "90"></a>
+					<a href = "r6.html"> <img src="img/r6.png" style="width:100%; max-width:1000px;height:250px"hspace = "90"></a>
 				  </div>
 
 				  <!-- Next and previous buttons -->
@@ -328,7 +328,7 @@
 			<!-- Three columns -->
 			<div class="row">
 				<a href = "a1.html"><div class="span3">
-					<div class="home-post">
+					<a href = "a1.html"><div class="home-post">
 						<div class="post-image">
 							<img class="max-img" src="img/home/1.gif" style = "width:500px;height:200px" alt="" />
 						</div>
@@ -343,7 +343,7 @@
 							</p>
 							
 						</div>
-					</div>
+					</div></a>
 				</div></a>
 				<a href = "a2.html"><div class="span3">
 					<div class="home-post">
@@ -515,9 +515,9 @@
 			</p>
 			<h1>Quiz</h1>
 			<p>
-				<strong>Userinyerface</strong>
+				<strong>Userinyerface</strong><br><br>
 				First Try<br>
-				<img src = "img/1stquiz.png"style = "width:900px;height:500px"><br>
+				<img src = "img/1stquiz.png"style = "width:900px;height:500px"><br><br>
 				Second Try<br>
 				<img src = "img/2ndquiz.png" style = "width:900px;height:500px"><br>
 				

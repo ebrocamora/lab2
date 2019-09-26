@@ -116,6 +116,7 @@ a.scrollup i:hover {
 
 .row {
 	margin-bottom:30px;
+	
 }
 
 .row .row{
@@ -767,6 +768,10 @@ section#blog {
 
 .home-post {
 	background:#fff;
+	border-style: solid;
+	border-left-width: 10px;
+	border-right-width: 10px;
+	border-color: white;
 	
 }
 

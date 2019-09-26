@@ -97,6 +97,11 @@
 		.demo:hover {
 		  opacity: 1;
 		}
+		.row1{
+			margin-bottom:30px;
+			margin-left:130px
+
+		}
 </style>
 <head>
 	
@@ -222,84 +227,140 @@
 	</section>
 	<!-- end section: team -->
 	<!-- section: services -->
-	<section id="services" class="section orange">
+	
+	
+	<section id="services" class="section">
+	<section class="spacer green">
 		<div class="container">
 			<h4>Reflections</h4>
-							<!-- Container for the image gallery -->
-				<div class="container">
-					
-					<div class="row">
-					<div class="column">
-					  <img class="demo cursor" src="img/r1.png" style="width:160px;height:100px" onclick="currentSlide(1)" alt="Reflection 1: First Week of USERDES Class" hspace = "30">
-					  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href = "r1.html"><font size = "5px" align = "center"> Reflection 1</font></a>
+			<!-- Three columns -->
+			<div class="row1">
+			
+				<a href = "r1.html"><div class="span3">
+					<a href = "r1.html"><div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/sc.gif" style = "width:500px;height:200px" alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">July 1, 2019</span>
+						</div>
+						<div class="entry-content">
+							<h5><strong><a href="r1.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reflection 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></strong></h5>
+							<p>
+								<a href = "r1.html">&nbsp;&nbsp;First Week of USERDES...</a>
+							</p>
+							
+						</div>
+					</div></a>
+				</div></a>
+				<a href = "r2.html"><div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/pro.gif" style = "width:500px;height:200px"alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">July 12, 2019</span>
+							
+						</div>
+						<div class="entry-content">
+							<h5><strong><a href="a2.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reflection 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></strong></h5>
+							<p>
+								<a href = "r2.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Need Finding and...</a>
+							</p>
+							
+						</div>
 					</div>
-					<div class="column"> 
-					  <img class="demo cursor" src="img/r2.png" style="width:250px;height:100px" onclick="currentSlide(2)" alt="Reflection 2: Need Finding and Paper Prototyping" hspace = "10">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href = "r2.html"><font size = "5px" align = "center"> Reflection 2</font></a>
+				</div></a>
+				<a href = "r3.html"><div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/web.gif" style = "width:500px;height:200px"alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">July 26, 2019</span>
+							
+						</div>
+						<div class="entry-content">
+							<h5><strong><a href="r3.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reflection 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></strong></h5>
+							<p>
+								<a href = "r3.html">&nbsp;&nbsp;&nbsp;&nbsp;First Web Application...</a>
+							</p>
+							
+						</div>
 					</div>
-					<div class="column">
-					  <img class="demo cursor" src="img/r3.png" style="width:250px;height:100px" onclick="currentSlide(3)" alt="Reflection 3: First Web Application using Github and Heroku" hspace = "10">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href = "r3.html"><font size = "5px" align = "center"> Reflection 3</font></a>
+				</div></a>
+				<a href = "a4tml"><div class="span3">
+					&nbsp;
+				</div></a>
+				<a href = "a4tml"><div class="span3">
+					&nbsp;
+				</div></a>
+				<a href = "a4tml"><div class="span3">
+					&nbsp;
+				</div></a>
+				
+				<a href = "r4.html"><div class="span3">
+					<a href = "r4.html"><div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/ui.gif" style = "width:500px;height:200px"alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">July 30, 2019</span>
+							
+						</div>
+						<a href = "r4.html"><div class="entry-content">
+							<h5><strong><a href="r4.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reflection 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></strong></h5>
+							<p>
+								<a href = "r4.html">&nbsp;&nbsp;Userinyerface - Worst UI...</a>
+							</p>
+							
+						</div></a>
+					</div></a>
+				</div></a>
+				
+				<a href = "r5.html"><div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/fest.gif" style = "width:500px;height:200px"alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">August 20, 2019</span>
+							
+						</div>
+						<div class="entry-content">
+							<h5><strong><a href="r5.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reflection 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></strong></h5>
+							<p>
+								<a href = "r5.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SOCIT Fest&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+							</p>
+							
+						</div>
 					</div>
-					<div class="column">
-					  <img class="demo cursor" src="img/r4.png" style="width:250px;height:100px" onclick="currentSlide(4)" alt="Reflection 4: Userinyerface - Worst UI Practice" hspace = "10">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href = "r4.html"><font size = "5px" align = "center"> Reflection 4</font></a>
+				</div></a>
+				<a href = "r6.html"><div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="img/user.gif" style = "width:500px;height:200px"alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">August 23, 2019</span>
+							
+						</div>
+						<div class="entry-content">
+							<h5><strong><a href="r6.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reflection 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></strong></h5>
+							<p>
+							<a href = "r6.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First Half of USERDES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+							</p>
+							
+						</div>
 					</div>
-					<div class="column">
-					  <img class="demo cursor" src="img/r5.png" style="width:250px;height:100px" onclick="currentSlide(5)" alt="Reflection 5: SoCIT Fest" hspace = "10">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href = "r5.html"><font size = "5px" align = "center"> Reflection 5</font></a>
-					</div> 
-					<div class="column">
-					  <img class="demo cursor" src="img/r6.png" style="width:250px;height:100px" onclick="currentSlide(6)" alt="Reflection 6: First Half of USERDES" hspace = "10">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href = "r6.html"><font size = "5px" align = "center"> Reflection 6</font></a>
-					</div>
-				  </div>
-									  <!-- Image text -->
-				  <div class="caption-container">
-					<p id="caption"></p>
-				  </div>
-					
-									  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-				  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-				  <!-- Full-width images with number text -->
-				  <div class="mySlides">
-					<div class="numbertext">1 / 6</div>
-					 <a href = "r1.html"> <img src="img/r1.png" style="width:100%; max-width:1000px;height:250px" hspace = "90"></a>
-				  </div>
-
-				  <div class="mySlides">
-					<div class="numbertext">2 / 6</div>
-					 <a href = "r2.html"> <img src="img/r2.png" style="width:100%; max-width:1000px;height:250px" hspace = "90"></a>
-				  </div>
-
-				  <div class="mySlides">
-					<div class="numbertext">3 / 6</div>
-					 <a href = "r3.html"> <img src="img/r3.png" style="width:100%; max-width:1000px;height:250px"hspace = "90"></a>
-				  </div>
-
-				  <div class="mySlides">
-					<div class="numbertext">4 / 6</div>
-					<a href = "r4.html"> <img src="img/r4.png" style="width:100%; max-width:1000px;height:250px"hspace = "90"></a>
-				  </div>
-
-				  <div class="mySlides">
-					<div class="numbertext">5 / 6</div>
-					<a href = "r5.html"> <img src="img/r5.png" style="width:100%; max-width:1000px;height:250px"hspace = "90"></a>
-				  </div>
-
-				  <div class="mySlides">
-					<div class="numbertext">6 / 6</div>
-					<a href = "r6.html"> <img src="img/r6.png" style="width:100%; max-width:1000px;height:250px"hspace = "90"></a>
-				  </div>
-
-				  <!-- Next and previous buttons -->
-
-
-
-
-				  <!-- Thumbnail images -->
-				  
-				</div>
+				</div></a>
+				
 						</div>
 					</section>
 	<!-- end section: services -->
@@ -402,6 +463,18 @@
 						</div>
 					</div></a>
 				</div></a>
+				<a href = "a4tml"><div class="span3">
+					&nbsp;
+				</div></a>
+				<a href = "a4tml"><div class="span3">
+					&nbsp;
+				</div></a>
+				<a href = "a4tml"><div class="span3">
+					&nbsp;
+				</div></a>
+				<a href = "a4tml"><div class="span3">
+					&nbsp;
+				</div></a>
 				<a href = "a5.html"><div class="span3">
 					<div class="home-post">
 						<div class="post-image">
@@ -477,6 +550,18 @@
 							
 						</div>
 					</div>
+				</div></a>
+				<a href = "a4tml"><div class="span3">
+					&nbsp;
+				</div></a>
+				<a href = "a4tml"><div class="span3">
+					&nbsp;
+				</div></a>
+				<a href = "a4tml"><div class="span3">
+					&nbsp;
+				</div></a>
+				<a href = "a4tml"><div class="span3">
+					&nbsp;
 				</div></a>
 				<a href = "a9.html"><div class="span3">
 					<div class="home-post">

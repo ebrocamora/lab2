@@ -330,7 +330,7 @@
 				<a href = "a1.html"><div class="span3">
 					<a href = "a1.html"><div class="home-post">
 						<div class="post-image">
-							<img class="max-img" src="img/home/1.gif" style = "width:500px;height:200px" alt="" />
+							<img class="max-img" src="img/home/1" style = "width:500px;height:200px" alt="" />
 						</div>
 						<div class="post-meta">
 							<i class="icon-file icon-2x"></i>

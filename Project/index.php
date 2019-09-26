@@ -102,6 +102,14 @@
 			margin-left:130px
 
 		}
+		.home-post {
+	background:#fff;
+	border-style: solid;
+	border-left-width: 10px;
+	border-right-width: 10px;
+	border-color: white;
+	
+}
 </style>
 <head>
 	
